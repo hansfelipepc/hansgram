@@ -8,10 +8,6 @@ class FileUpload extends Component{
     };
   }
 
-  componentWillReceiveProps(){
-    console.log(this.props.onUpload)
-  }
-
   render(){
     return (
       <div>
